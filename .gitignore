@@ -1,0 +1,28 @@
+# Dependensi
+node_modules
+
+# Hasil build
+dist
+dist-ssr
+
+# Laporan test
+coverage
+
+# Profil Chrome sementara (dibuat scripts/screenshot.mjs)
+.chrome-shot-profile
+.chrome-verify-profile
+
+# Artefak runtime editor (berisi hanya UUID proyek, bukan kredensial)
+.freebuff
+
+# Lokal & editor
+*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
